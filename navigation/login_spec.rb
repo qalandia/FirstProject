@@ -36,10 +36,18 @@ require 'selenium-webdriver'
           @driver.find_element(:xpath, '/html/body/div/form/input[2]').send_keys 'xxxxxx'
           @driver.find_element(:id, 'loginButton').click
           @driver.find_element(:xpath, '/html/body/section[1]/nav/ul/li[1]/a/span').displayed?.should be_true
+          @time = Time.now.to_s
+          @tail = "#{@time}"
           @driver.save_screenshot ("navigation/screenshot/#{@screen_shot}.png")
           @driver.title.should == 'App'
           @driver.current_url.should == "http://localhost:8080/#{@email3}#/page:Home"
+          @driver.current_url.should include("#{@email3}")
+          @driver.current_url.should include("#/page:Home")
+          @driver.current_url.should_not include("#{@email3}")
+          @driver.current_url.should_not include("xyz")
+
           puts "\ncurrent URL => #{@driver.current_url}"
+
         end
 
 end
