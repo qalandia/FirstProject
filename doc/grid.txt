@@ -9,5 +9,5 @@ On the node machine:
 
 - navigate to the selenium grid folder
 - type => java -jar selenium-server-standalone.2.39.0.jar -role webdriver -hub http://hubMachineIpAddress:4444/grid/register -port 5555
-          -browser browserName=firefox,platform=MAC, maxInstances=5 -hubHost "hubMachineIpAddress" -host "NodeIpAddress"
+          -browser browserName=firefox,platform=MAC, maxInstances=5, maxSession=5 -hubHost "hubMachineIpAddress" -host "NodeIpAddress"
 - Verify its running by navigating to http://localhost:4444/grid/console on the hub machine
