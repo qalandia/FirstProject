@@ -10,11 +10,20 @@ require 'selenium-webdriver'
   email4 = '.com'
 
         before(:each) do
-          @driver = Selenium::WebDriver.for :firefox
-          @base_url = 'http://localhost:8080/'
-          @accept_next_alert = true
+
+          @driver = Selenium::WebDriver.for(:remote, :url => 'http://localhost:4444/wd/hub', :desired_capabilities => :firefox)
+          @site_url = '192.168.0.113'
+          @base_url = "http://#{@site_url}:8080"
           @driver.manage.timeouts.implicit_wait = 30
           @verification_errors = []
+          @accept_next_alert = true
+
+          #@driver = Selenium::WebDriver.for(:remote, :desired_capabilities => :firefox)
+          #@driver = Selenium::Browser.new(:remote, :url=>"http://10.10.1.15:5555/wd/hub", :desired_capabilities=> browser_name)
+          #@base_url = 'http://10.10.1.201:8080/'
+          #@accept_next_alert = true
+          #@driver.manage.timeouts.implicit_wait = 30
+          #@verification_errors = []
           @screen_shot = rand(1..999999999999)
           puts @screen_shot
           @email1 = 'anwar'
@@ -39,9 +48,9 @@ require 'selenium-webdriver'
           @driver.find_element(:xpath, '/html/body/section[1]/nav/ul/li[1]/a/span').displayed?.should be_true
           @time = Time.now.to_s
           @tail = "#{@time}"
-          @driver.save_screenshot ("navigation/screenshot/#{@screen_shot}.png")
+          @driver.save_screenshot ("screenshot/#{@screen_shot}.png")
           @driver.title.should == 'App'
-          @driver.current_url.should == "http://localhost:8080/#{@email3}#/page:Home"
+          @driver.current_url.should == "http://#{@site_url}:8080/#{@email3}#/page:Home"
           @driver.current_url.should match(/#{@email3}/)
           @driver.current_url.should include("#{@email3}")
           @driver.current_url.should include("#/page:Home")
