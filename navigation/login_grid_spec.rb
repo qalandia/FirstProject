@@ -40,11 +40,13 @@ require 'selenium-webdriver'
 
         it 'Login with valid user and password' do
           @driver.get(@base_url + '/')
+          sleep 2
           @driver.find_element(:id, 'email').clear
           @driver.find_element(:id, 'email').send_keys ("#{@email}")
           @driver.find_element(:xpath, '/html/body/div/form/input[2]').clear
           @driver.find_element(:xpath, '/html/body/div/form/input[2]').send_keys 'xxxxxx'
           @driver.find_element(:id, 'loginButton').click
+          sleep 2
           @driver.find_element(:xpath, '/html/body/section[1]/nav/ul/li[1]/a/span').displayed?.should be_true
           @time = Time.now.to_s
           @tail = "#{@time}"
