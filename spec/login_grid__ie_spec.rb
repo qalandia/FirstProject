@@ -43,9 +43,9 @@ require 'win32ole'
           @driver.find_element(:xpath, '/html/body/div/form/input[2]').clear
           @driver.find_element(:xpath, '/html/body/div/form/input[2]').send_keys 'xxxxxx'
           @driver.find_element(:id, 'loginButton').click
-          @driver.find_element(:)
+          @driver.find_element(:css, 'body').text.should =~ /Get started today/
           @driver.find_element(:xpath, '/html/body/section[1]/nav/ul/li[1]/a/span').displayed?.should be_true
-          @driver.save_screenshot ("screenshot/#{@screen_shot}.png")
+          @driver.save_screenshot ("spec/screenshot/#{@screen_shot}.png")
           @driver.title.should == 'App'
           @driver.current_url.should == "http://#{@site_url}:8080/#{@email3}#/page:Home"
           @driver.current_url.should match(/#{@email3}/)
