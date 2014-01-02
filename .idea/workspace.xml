@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ae98b36-ec3b-4dbf-920c-b9e50d5bbc57" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/login_grid__ie_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/login_grid_spec.rb" />
+      <change type="DELETED" beforePath="C:\Users\salema\RubymineProjects\FirstProject\navigation\test_spec.rb" afterPath="" />
+      <change type="MOVED" beforePath="C:\Users\salema\RubymineProjects\FirstProject\navigation\login_grid_spec.rb" afterPath="$PROJECT_DIR$/spec/login_grid__firefox_spec.rb" />
+      <change type="MOVED" beforePath="C:\Users\salema\RubymineProjects\FirstProject\navigation\login_spec.rb" afterPath="$PROJECT_DIR$/spec/login_spec.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/FirstProject.iml" afterPath="$PROJECT_DIR$/.idea/FirstProject.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/grid.txt" afterPath="$PROJECT_DIR$/doc/grid.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/navigation/login_grid_spec.rb" afterPath="$PROJECT_DIR$/navigation/login_grid_spec.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="FirstProject.iws" />
@@ -16,12 +21,13 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/FirstProject@Run_spec__login_grid__ie_spec___FirstProject.coverage" NAME="Run spec 'login_grid__ie_spec': FirstProject Coverage Results" MODIFIED="1388631328651" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/navigation" MODULE_NAME="FirstProject" />
     <SUITE FILE_PATH="coverage/FirstProject@numeric.coverage" NAME="numeric Coverage Results" MODIFIED="1388293835314" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lib" MODULE_NAME="FirstProject" />
     <SUITE FILE_PATH="coverage/FirstProject@Run_spec__login_spec___FirstProject__1_.coverage" NAME="Run spec 'login_spec': FirstProject (1) Coverage Results" MODIFIED="1388094612464" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="C:\Users\salema\RubymineProjects\FirstProject\navigation" MODULE_NAME="FirstProject" />
+    <SUITE FILE_PATH="coverage/FirstProject@Run_spec__login_spec___FirstProject.coverage" NAME="Run spec 'login_spec': FirstProject Coverage Results" MODIFIED="1388623554449" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="FirstProject" />
     <SUITE FILE_PATH="coverage/FirstProject@Run_spec__login_spec___FirstProject__2_.coverage" NAME="Run spec 'login_spec': FirstProject (2) Coverage Results" MODIFIED="1388098011420" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/navigation" MODULE_NAME="FirstProject" />
-    <SUITE FILE_PATH="coverage/FirstProject@Run_spec__login_spec___FirstProject.coverage" NAME="Run spec 'login_spec': FirstProject Coverage Results" MODIFIED="1388420906655" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="FirstProject" />
     <SUITE FILE_PATH="coverage/FirstProject@Run_spec__test_spec___FirstProject.coverage" NAME="Run spec 'test_spec': FirstProject Coverage Results" MODIFIED="1388433915728" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/navigation" MODULE_NAME="FirstProject" />
-    <SUITE FILE_PATH="coverage/FirstProject@Run_spec__login_grid_spec___FirstProject.coverage" NAME="Run spec 'login_grid_spec': FirstProject Coverage Results" MODIFIED="1388605298429" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/navigation" MODULE_NAME="FirstProject" />
+    <SUITE FILE_PATH="coverage/FirstProject@Run_spec__login_grid_spec___FirstProject.coverage" NAME="Run spec 'login_grid_spec': FirstProject Coverage Results" MODIFIED="1388623572180" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/navigation" MODULE_NAME="FirstProject" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -37,36 +43,45 @@
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="login_spec.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/navigation/login_spec.rb">
+        <entry file="file://$PROJECT_DIR$/spec/login_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="40" selection-start="1870" selection-end="1870" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="1020">
+            <state line="48" column="40" selection-start="1864" selection-end="1864" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1020">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="login_grid_spec.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/navigation/login_grid_spec.rb">
+        <entry file="file://$PROJECT_DIR$/spec/login_grid_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="52" selection-start="396" selection-end="396" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1020">
+            <state line="64" column="46" selection-start="2340" selection-end="2340" vertical-scroll-proportion="0.0" vertical-offset="1315" max-vertical-offset="1904">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="grid.txt" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="login_grid__firefox_spec.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spec/login_grid__firefox_spec.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="54" column="5" selection-start="2038" selection-end="2038" vertical-scroll-proportion="0.0" vertical-offset="431" max-vertical-offset="1020">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login_grid__ie_spec.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/spec/login_grid__ie_spec.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="25" selection-start="119" selection-end="119" vertical-scroll-proportion="0.14756945" vertical-offset="0" max-vertical-offset="1122">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="grid.txt" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/doc/grid.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="0" selection-start="1110" selection-end="1110" vertical-scroll-proportion="0.9505814" vertical-offset="13" max-vertical-offset="442">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test_spec.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/navigation/test_spec.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="11" selection-start="705" selection-end="705" vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="442">
+            <state line="18" column="123" selection-start="777" selection-end="1016" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="442">
               <folding />
             </state>
           </provider>
@@ -93,15 +108,17 @@
         <option value="$PROJECT_DIR$/lib/numeric.rb" />
         <option value="$PROJECT_DIR$/navigation/login_spec.rb" />
         <option value="$PROJECT_DIR$/navigation/test_spec.rb" />
-        <option value="$PROJECT_DIR$/navigation/login_grid_spec.rb" />
         <option value="$PROJECT_DIR$/doc/grid.txt" />
+        <option value="$PROJECT_DIR$/navigation/login_grid_spec.rb" />
+        <option value="$PROJECT_DIR$/navigation/login_grid__firefox_spec.rb" />
+        <option value="$PROJECT_DIR$/navigation/login_grid__ie_spec.rb" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="143" />
-    <option name="y" value="30" />
-    <option name="width" value="1317" />
+    <option name="x" value="226" />
+    <option name="y" value="31" />
+    <option name="width" value="1341" />
     <option name="height" value="749" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -174,35 +191,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="navigation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FirstProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FirstProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FirstProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FirstProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="doc" />
+              <option name="myItemId" value="spec" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -225,12 +214,13 @@
       <recent name="C:\Users\salema\RubymineProjects\FirstProject\navigation" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\salema\RubymineProjects\FirstProject\lib" />
       <recent name="C:\Users\salema\RubymineProjects\FirstProject" />
       <recent name="C:\Users\salema\RubymineProjects\FirstProject\navigation\screenshots" />
       <recent name="C:\Users\salema\RubymineProjects\FirstProject\UI" />
     </key>
   </component>
-  <component name="RunManager" selected="RSpec.Run spec 'login_grid_spec': FirstProject">
+  <component name="RunManager" selected="RSpec.Run spec 'login_grid__ie_spec': FirstProject">
     <configuration default="false" name="Run spec 'login_spec': FirstProject" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
       <module name="FirstProject" />
@@ -247,38 +237,7 @@
       <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
       <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/navigation/login_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
-      <RunnerSettings RunnerId="RubyRunner" />
-      <ConfigurationWrapper RunnerId="RubyRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Run spec 'login_spec': FirstProject (2)" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
-      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
-      <module name="FirstProject" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$/navigation" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs>
-        <env name="JRUBY_OPTS" value="-X+O" />
-      </envs>
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
-      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/navigation/login_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="C:\Users\salema\RubymineProjects\FirstProject\spec\login_spec.rb" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="" />
@@ -315,7 +274,7 @@
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
       <module name="FirstProject" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$/navigation" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="C:\Users\salema\RubymineProjects\FirstProject\spec" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
@@ -327,7 +286,7 @@
       <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
       <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/navigation/login_grid_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="C:\Users\salema\RubymineProjects\FirstProject\spec\login_grid_spec.rb" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="" />
@@ -346,7 +305,7 @@
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
       <module name="FirstProject" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$/navigation" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="C:\Users\salema\RubymineProjects\FirstProject\spec" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
@@ -358,7 +317,38 @@
       <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
       <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/navigation/test_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="C:\Users\salema\RubymineProjects\FirstProject\spec\test_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <RunnerSettings RunnerId="RubyRunner" />
+      <ConfigurationWrapper RunnerId="RubyRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Run spec 'login_grid__ie_spec': FirstProject" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
+      <module name="FirstProject" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="C:\Users\salema\RubymineProjects\FirstProject\spec" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="C:\Users\salema\RubymineProjects\FirstProject\spec\login_grid__ie_spec.rb" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="" />
@@ -444,18 +434,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="RSpec.Run spec 'login_spec': FirstProject" />
-      <item index="1" class="java.lang.String" itemvalue="RSpec.Run spec 'login_spec': FirstProject (2)" />
-      <item index="2" class="java.lang.String" itemvalue="Ruby.numeric" />
-      <item index="3" class="java.lang.String" itemvalue="RSpec.Run spec 'login_grid_spec': FirstProject" />
-      <item index="4" class="java.lang.String" itemvalue="RSpec.Run spec 'test_spec': FirstProject" />
+      <item index="1" class="java.lang.String" itemvalue="Ruby.numeric" />
+      <item index="2" class="java.lang.String" itemvalue="RSpec.Run spec 'login_grid_spec': FirstProject" />
+      <item index="3" class="java.lang.String" itemvalue="RSpec.Run spec 'test_spec': FirstProject" />
+      <item index="4" class="java.lang.String" itemvalue="RSpec.Run spec 'login_grid__ie_spec': FirstProject" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="RSpec.Run spec 'login_grid_spec': FirstProject" />
-        <item index="1" class="java.lang.String" itemvalue="RSpec.Run spec 'test_spec': FirstProject" />
-        <item index="2" class="java.lang.String" itemvalue="Ruby.numeric" />
-        <item index="3" class="java.lang.String" itemvalue="RSpec.Run spec 'login_spec': FirstProject (2)" />
-        <item index="4" class="java.lang.String" itemvalue="RSpec.Run spec 'login_spec': FirstProject" />
+        <item index="0" class="java.lang.String" itemvalue="RSpec.Run spec 'login_grid__ie_spec': FirstProject" />
+        <item index="1" class="java.lang.String" itemvalue="RSpec.Run spec 'login_grid_spec': FirstProject" />
+        <item index="2" class="java.lang.String" itemvalue="RSpec.Run spec 'login_spec': FirstProject" />
+        <item index="3" class="java.lang.String" itemvalue="RSpec.Run spec 'test_spec': FirstProject" />
+        <item index="4" class="java.lang.String" itemvalue="Ruby.numeric" />
       </list>
     </recent_temporary>
   </component>
@@ -503,28 +493,32 @@
       <created>1388544305424</created>
       <updated>1388544305424</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Initial commit&#10;">
+      <created>1388605362125</created>
+      <updated>1388605362125</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="143" y="30" width="1317" height="749" extended-state="0" />
+    <frame x="226" y="31" width="1341" height="749" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.44227642" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" x="39" y="321" width="963" height="373" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3284553" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20174742" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.37723577" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299595" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1979735" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16747968" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -550,35 +544,28 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/navigation/login_spec.rb">
+    <entry file="file://$PROJECT_DIR$/spec/login_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="48" column="40" selection-start="1870" selection-end="1870" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1020">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/navigation/login_grid_spec.rb">
+    <entry file="file://$PROJECT_DIR$/spec/login_grid_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="35" selection-start="498" selection-end="498" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="1156">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/navigation/test_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="11" selection-start="705" selection-end="705" vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="442">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/navigation/login_spec.rb">
+    <entry file="file://$PROJECT_DIR$/spec/login_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="38" column="58" selection-start="1362" selection-end="1362" vertical-scroll-proportion="0.0" vertical-offset="409" max-vertical-offset="850">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/navigation/login_spec.rb">
+    <entry file="file://$PROJECT_DIR$/spec/login_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="42" column="11" selection-start="767" selection-end="1568" vertical-scroll-proportion="0.0" vertical-offset="472" max-vertical-offset="850">
           <folding />
@@ -597,7 +584,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/navigation/metadata.rb">
+    <entry file="file://$PROJECT_DIR$/lib/metadata.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="3" selection-start="81" selection-end="81" vertical-scroll-proportion="0.15144767" vertical-offset="0" max-vertical-offset="449" />
       </provider>
@@ -612,30 +599,37 @@
         <state line="0" column="34" selection-start="34" selection-end="34" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="436" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/navigation/test_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="11" selection-start="705" selection-end="705" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/navigation/login_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="40" selection-start="1870" selection-end="1870" vertical-scroll-proportion="0.0" vertical-offset="177" max-vertical-offset="1020">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/navigation/login_grid_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="52" selection-start="396" selection-end="396" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1020">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/doc/grid.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="0" selection-start="1110" selection-end="1110" vertical-scroll-proportion="0.9505814" vertical-offset="13" max-vertical-offset="442">
+        <state line="18" column="123" selection-start="777" selection-end="1016" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="442">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/login_grid__firefox_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="5" selection-start="2038" selection-end="2038" vertical-scroll-proportion="0.0" vertical-offset="534" max-vertical-offset="1020">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/login_grid_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="64" column="46" selection-start="2340" selection-end="2340" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1904">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/login_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="40" selection-start="1864" selection-end="1864" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1020">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/login_grid__ie_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="25" selection-start="119" selection-end="119" vertical-scroll-proportion="0.14756945" vertical-offset="0" max-vertical-offset="1122">
           <folding />
         </state>
       </provider>

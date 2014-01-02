@@ -16,5 +16,5 @@ On the local node machine (same as the hub machine):
 
 - navigate to the selenium grid folder
 - type => java -jar selenium-server-standalone-2.39.0.jar -role webdriver -hub http://localhost:4444/grid/register -port 5544
-          -browser browserName=firefox,platform=WINDOWS, maxInstances=5, maxSession=5 -hubHost "localhost" -host "localhost"
+          -browser browserName=chrome,platform=WINDOWS, maxInstances=5, maxSession=5 -hubHost "localhost" -host "localhost"
 - Verify its running by navigating to http://localhost:4444/grid/console on the hub machine
